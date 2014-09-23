@@ -1,0 +1,36 @@
+{
+  "name": "calling",
+  "version": "0.0.1",
+  "authors": [
+    "k5m"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "font-awesome": "~4.0.3",
+    "font-awesome-animation": "~0.0.2",
+    "modernizr": "~2.7.1",
+    "lazyloadxt": "~1.0.1",
+    "SyntaxHighlighter": "~3.0.83",
+    "jquery-expander": "~1.4.7",
+    "lodash": "~2.4.1"
+  },
+  "exportsOverride": {
+    "jquery": {
+      "js": "**/jquery*.js"
+    },
+    "modernizr": {
+      "js": "modernizr.js"
+    },
+    "font-awesome": {
+      "css": "css/font-awesome*.css",
+      "fonts": "fonts/*.*"
+    },
+    "lazyloadxt": {
+      "fileset": "dist/{jquery.lazyloadxt.min.js,jquery.lazyloadxt.extra.min.js,jquery.lazyloadxt.spinner.min.css,loading.gif}"
+    },
+    "SyntaxHighlighter": {
+      "js": "scripts/{shAutoloader.js,shCore.js,shBrush*.js,shLegacy.js,XRegExp.js}",
+      "css": "styles/{shCore.css,shCoreDefault.css,shThemeDefault.css}"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "theme" : "calling",
+    "dir": {
+        "css": "/assets/css/",
+        "js": "/assets/js/",
+        "images": "/assets/images/",
+        "fonts": "/assets/fonts/"
+    }
+}
